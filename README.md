@@ -72,6 +72,7 @@ Example response:
 ## Aspects to be evaluated
 
 - Use Class Components
+- Use Presentational and Container Components
 - Use Redux
 - Functionality
 - Documentation
