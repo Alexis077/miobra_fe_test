@@ -1,3 +1,89 @@
+# MiObra's Frontend Test
+This tehcnical test requires design and implemenation of an application to use a given endpoint to show plans related to pricing.
+
+We provide a boilerplate project with ReactJS
+
+## After you finish your test please share this repository with: @cbriceno-midsoft @malsu @AAnaya-MidSoft
+
+Should you have any technical questions, please contact cbriceno@midsoftware.com.mx Title of the project: Frontend-Test-(Last Name)
+
+## Description
+
+Build pricing page to show all plans. It is not required a given design, just show the information is enough.
+There is a current version available in https://www.dev.miobra.mx/pricing (You can take at look to this version like reference)
+
+### Endpoint for getting information related to plans:
+`URL`: https://www.api.dev.miobra.mx/plans/public/ \
+`Method`: GET \
+`Headers`: Content-Type: application/json
+
+Example response:
+```json
+{
+    "data": [
+        {
+            "plan_id": 1,
+            "plan_payment_service": {
+                "id": "price_1KxuZpBZ36wIuYCdoZCf6XTN",
+                "object": "price",
+                "active": true,
+                "billing_scheme": "per_unit",
+                "created": 1652194937,
+                "currency": "mxn",
+                "livemode": false,
+                "lookup_key": null,
+                "metadata": {
+                    "related_plan": " {\"title\": \"\", \"plan\": \"\"}",
+                    "classification": "free",
+                    "title_features": "PLAN INDIVIDUAL INCLUYE:",
+                    "features": "[{\"name\": \"Lorem ipsum dolor sit\", \"description\": \"\"}, {\"name\": \"Lorem ipsum dolor sit\", \"description\": \"\"}, {\"name\": \"Lorem ipsum dolor sit\", \"description\": \"\"}, {\"name\": \"Lorem ipsum dolor sit\", \"description\": \"\"}, {\"name\": \"Lorem ipsum dolor sit\", \"description\": \"\"}]"
+                },
+                "nickname": "INDIVIDUAL",
+                "product": "prod_LfExwAHLXQ7ipG",
+                "recurring": {
+                    "aggregate_usage": null,
+                    "interval": "year",
+                    "interval_count": 1,
+                    "trial_period_days": null,
+                    "usage_type": "licensed"
+                },
+                "tax_behavior": "unspecified",
+                "tiers_mode": null,
+                "transform_quantity": null,
+                "type": "recurring",
+                "unit_amount": 0,
+                "unit_amount_decimal": "0"
+            },
+            "name": "INDIVIDUAL",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "billing_scheme": "per_unit",
+            "price": "0.0000",
+            "periodicity": "year",
+            "periodicity_count": 1,
+            "tiers": null,
+            "created_dt_tm": "2022-05-10T15:02:16.990525Z",
+            "updated_dt_tm": "2022-05-10T15:02:16.991361Z",
+            "product": 1
+        },
+    ]
+}
+```
+
+## Aspects to be evaluated
+
+- Use Class Components
+- Use Redux
+- Functionality
+- Documentation
+- Software design
+- Programming style
+- Appropriate frameworks use
+
+## Aspects to be ignored
+
+- Visual design of the solution
+- Deployment of the solution
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
