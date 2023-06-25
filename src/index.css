@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* src/custom.css */
+
+.plan-container {
+  display: flex;
+  border: 2px solid;
+}
+
+.plan-details {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 0;
+}
